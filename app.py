@@ -13,9 +13,9 @@ model.eval()
 
 # use the st.camera_input("") feature of the streamlit to get the input picture of the user
 
-# use a helper function to convert input image to vector
+# use a helper function to convert input picture to vector
 
-# load the vectors of the dataset pictures
+# load the vectors of the dataset images
 
 # use the helper function to compare vectors to the vector you created from the input picture
 
