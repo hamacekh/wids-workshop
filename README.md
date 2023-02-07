@@ -17,7 +17,7 @@
 
 - with the help of documentation https://docs.streamlit.io/library/get-started/create-an-app and comments create your streamlit application!
 
-![streamlit app](answers/screenshot.png)
+![streamlit](answers/Screenshot.png)
 
 #### **Hint**
 
