@@ -4,36 +4,28 @@
 
 ## 1. Go to vectorize_dataset.ipynb
 
-- download a pretrained neural network with resnet50 architecture
-- use this model to create a vector representation of each image in our dataset
-- store the vectors and their corresponding image filepaths as dataframe with two columns: vector, img_path
-- save the dataframe to parquet format
+- read the code and run the notebook
+- fill the missing lines
+- check the shape of vectors dataframe - how many images do we have in the dataset?
+- make sure that vectors.parquet was created
 
 ## 2. Go to src.helpers.py
 
-Fill the missing lines in predefined functions based on comments:
-
-- image_to_vector():
-  - define suitable preprocess transformations for our model (resnet50)
-  - load image from image_path using PIL
-  - transform image to vector using the model
-  - return vectorized image
-- most_similar_vectors():
-  - load parquet file with vectorized dataset pictures
-  - compare input image from user's camera with every vector from the dataset (use distance metric)
-  - return the path to the most similar image in the dataset
+- fill the missing lines in predefined functions
 
 ## 3. Go to app.py
 
 - with the help of documentation https://docs.streamlit.io/library/get-started/create-an-app and comments create your streamlit application!
 
+![streamlit app](answers/screenshot.png)
+
 #### **Hint**
 
-_In case you get stuck or you need an inspiration, take a sneak peek into the answers/ folder_
+_In case you get stuck or you need an inspiration, take a sneak peek into the /answers/ folder_
 
 ---
 
-## Too easy? Try adding more complexity
+## Too easy? Try adding more complexity!
 
     # enrich the page layout, add texts, input fields, result metrics - be creative :)
 

@@ -4,7 +4,7 @@ from torchvision import transforms
 from PIL import Image
 
 
-def image_to_vector(img_path, model):
+def image_to_vector(img_path: str, model) -> np.array:
     preprocess = transforms.Compose(
         [
             transforms.Resize(256),
@@ -21,7 +21,7 @@ def image_to_vector(img_path, model):
     return vector
 
 
-def most_similar_vectors(image_vector, df_vectors):
+def most_similar_vectors(image_vector: np.array, df_vectors: pd.DataFrame) -> str:
     min_dist = float("inf")
     closest_breed = None
 
