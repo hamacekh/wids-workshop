@@ -2,16 +2,13 @@
 
 ## Steps:
 
-## 1. Go to vectorize_dataset.ipynb
+## 1. & 2. Go to vectorize_dataset.ipynb
 
-- read the code and run the notebook
-- fill the missing lines
+- read the code and try to run the notebook
+  > fill the missing lines in helpers.py
+  > fill the missing lines in the notebook itself
 - check the shape of vectors dataframe - how many images do we have in the dataset?
 - make sure that vectors.parquet was created
-
-## 2. Go to src.helpers.py
-
-- fill the missing lines in predefined functions
 
 ## 3. Go to app.py
 
@@ -27,7 +24,7 @@ _In case you get stuck or you need an inspiration, take a sneak peek into the /a
 
 ## Too easy? Try adding more complexity!
 
-    # enrich the page layout, add texts, input fields, result metrics - be creative :)
+    # enrich the page layout, add texts, input fields, plots - be creative :)
 
     # add cats dataset from https://www.kaggle.com/datasets/ma7555/cat-breeds-dataset - ask the user if he/she/it is a cat or dog person and display the result image based on the answer
 
