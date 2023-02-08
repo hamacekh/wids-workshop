@@ -12,7 +12,7 @@
 
 ## 3. Go to app.py
 
-- with the help of documentation https://docs.streamlit.io/library/get-started/create-an-app and comments create your streamlit application!
+- with the help of documentation https://docs.streamlit.io/library/get-started/create-an-app create your streamlit application!
 
 ![streamlit](answers/Screenshot.png)
 
