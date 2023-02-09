@@ -2,17 +2,21 @@
 
 ## Steps:
 
-## 1. & 2. Go to vectorize_dataset.ipynb
+## 1. Fill in the gaps in vectorize_dataset.ipynb, helpers.py
 
-- read the code and try to run the notebook
-  > fill the missing lines in helpers.py
-  > fill the missing lines in the notebook itself
+- then try to run the notebook
 - check the shape of vectors dataframe - how many images do we have in the dataset?
 - make sure that vectors.parquet was created
 
-## 3. Go to app.py
+## 2. Go to app.py
 
-- with the help of documentation https://docs.streamlit.io/library/get-started/create-an-app create your streamlit application!
+- with the help of documentation https://docs.streamlit.io/library/get-started/create-an-app create your streamlit application
+
+## 3. Go to Run Streamlit notebook in Deepnote or in your local terminal run
+
+```
+streamlit run app.py
+```
 
 ![streamlit](answers/Screenshot.png)
 
