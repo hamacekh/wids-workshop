@@ -4,6 +4,7 @@ channels:
   - apple
   - defaults
 dependencies:
+  - python=3.9
   - pip:
       - absl-py==1.4.0
       - aiohttp==3.8.3
